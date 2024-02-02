@@ -2,7 +2,7 @@
     "basics": {
       "name": "Juan Leonel Vazquez Iglesias",
       "label": "Ing. en desarrollo y gestion de software y desarrollador Full Stack Jr",
-      "image": "my image",
+      "image": "https://i.pinimg.com/236x/94/be/b1/94beb1107bb3addf2f85f671cafb9190.jpg",
       "email": "vazquez.juan.1fm@gmail.com",
       "phone": "+52 2431219100",
       "url": "https://jlvi19c.vercel.app/",
@@ -29,11 +29,6 @@
             "network": "GitHub",
             "username": "leonelVc19",
             "url": "https://github.com/leonelVc19"
-        },
-        {
-            "network": "Instagram",
-            "username": "jlvi19c",
-            "url": "https://www.instagram.com/jlvi19c/"
         }
       ]
     },
