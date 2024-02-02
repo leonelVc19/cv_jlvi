@@ -1,0 +1,277 @@
+{
+    "basics": {
+      "name": "Juan Leonel Vazquez Iglesias",
+      "label": "Ing. en desarrollo y gestion de software y desarrollador Full Stack Jr",
+      "image": "my image",
+      "email": "vazquez.juan.1fm@gmail.com",
+      "phone": "+52 2431219100",
+      "url": "https://jlvi19c.vercel.app/",
+      "summary": "Contando con un a;os de experiencia en el desarrollo de web y apacionado por la tecnologia. Actualmente trabajo para un empresa colsultora que cuenta clientes en barios ambitos. Soy de mexico para el desarrollo Full Stack",
+      "location": {
+        "address": "",
+        "postalCode": "74400",
+        "city": "Izucar de Matamoros, Puebla",
+        "countryCode": "MXN",
+        "region": "Mexico"
+      },
+      "profiles": [
+        {
+            "network": "LinkedIn",
+            "username": "Juan Leonel Vazquez Iglesias",
+            "url": "https://www.linkedin.com/in/juan-leonel-vazquez-iglesias-74b553230/"
+        },
+        {
+            "network": "X",
+            "username": "JuanLeonelVazq2",
+            "url": "https://twitter.com/JuanLeonelVazq2"
+        },
+        {
+            "network": "GitHub",
+            "username": "leonelVc19",
+            "url": "https://github.com/leonelVc19"
+        },
+        {
+            "network": "Instagram",
+            "username": "jlvi19c",
+            "url": "https://www.instagram.com/jlvi19c/"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "Sit Digital",
+        "position": "Desarrollador Practicas profesinales",
+        "url": "_",
+        "startDate": "2023-01-20",
+        "endDate": "2023-04-14",
+        "summary": "Desarrollando un proyecto para la pasantia",
+        "highlights": [
+          "Proyecto pasantia"
+        ]
+      },
+      {
+        "name": "E-stars",
+        "position": "Desarrollador",
+        "url": "_",
+        "startDate": "2023-05-01",
+        "endDate": "2023-09-14",
+        "summary": "Proyecto de constelaciones para NFT's",
+        "highlights": [
+          "NFT's"
+        ]
+      },
+      {
+        "name": "Anzen Solutions",
+        "position": "Desarrollador",
+        "startDate": "2023-06-05",
+        "endDate": null,
+        "summary": "Trabajando en la parte de desarrollo para el sector bancario de un banco importante en CDMX",
+        "highlights": [
+          "Desarrollo"
+        ]
+      }
+    ],
+    "volunteer": [{
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }],
+    "education": [{
+      "institution": "Universidad Tecnologica de Izucar de Matamoros",
+      "url": "http://www.utim.edu.mx/",
+      "area": "Ingeniero en Desarrollo y Gestion de Software",
+      "studyType": "Escolarizado",
+      "startDate": "2019-09-05",
+      "endDate": "2023-01-06",
+      "score": "9.0",
+      "courses": [
+        "JavaScript", "Rect JS", "React Native", "MySql", "Firebase", "MongoDB"
+      ]
+    }],
+    "awards": [{
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }],
+    "certificates": [{
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }],
+    "publications": [{
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }],
+    "skills": [
+      {
+        "name": "HTML",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Frontend"
+        ]
+      },
+      {
+        "name": "CSS",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Diseño Responsive"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+        ]
+      },
+      {
+        "name": "Tailwind",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+        ]
+      },
+      {
+        "name": "Node",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+        ]
+      },
+      {
+        "name": "MySQL",
+        "level": "Intermedio",
+        "keywords": [
+          "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+        ]
+      },
+      {
+        "name": "Git",
+        "level": "Intermedio",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente"
+        ]
+      },
+      {
+        "name": "GitHub",
+        "level": "Intermedio",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        ]
+      },
+      {
+        "name": "Next.js",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+        ]
+      },
+      {
+        "name": "React",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "Spanish",
+        "fluency": "Native speaker"
+      },
+      {
+        "language": "English",
+        "fluency": "B1"
+      }
+    ],
+    "interests": [{
+      "name": "Manga",
+      "keywords": [
+        "Komi San",
+        "K-On"
+      ]
+    }],
+    "references": [{
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }],
+    "projects": [
+      {
+        "name": "JLVI",
+        "isActive": true,
+        "description": "Mi Web personal donde cuento con la informacion de mis proyectos",
+        "highlights": [
+          "Mi Web",
+          "NextJS",
+          "JavaScript"
+        ],
+        "url": "https://jlvi19c.vercel.app/"
+      },
+      {
+        "name": "Gift App",
+        "isActive": true,
+        "description": "App para bsuqueda de Gift chulos",
+        "highlights": [
+          "Busca tu Gifts",
+          "Elije"
+        ],
+        "url": "https://leonelvc19.github.io/gifs-app/"
+      },
+      {
+        "name": "Countries App",
+        "isActive": true,
+        "description": "App Web para saber informacion de un pais, capital o region",
+        "highlights": [
+          "World",
+          "Tu pais"
+        ],
+        "url": "https://countries-app-jlvi.vercel.app/countries/by-capital"
+      },
+      {
+        "name": "My CV",
+        "isActive": true,
+        "description": "Este proyecto es utilizado para tener mi CV a la mano",
+        "highlights": [
+          "100k visitas al mes",
+          "Desarrollado por la comunidad"
+        ],
+        "url": "https://cv_jlvi.netlify.app/"
+      },
+      {
+        "name": "Candy App",
+        "description": "App movil para la administracion de mercancia en una dulceria",
+        "highlights": [
+          "Candy",
+          "Administra"
+        ],
+        "url": "_"
+      },
+      {
+        "name": "Gestion de Perfiles",
+        "description": "Proyecto para la gestion de perfiles de cadidatos a programacion",
+        "highlights": [
+          "Perfiles",
+          "Lit Element"
+        ],
+        "url": "_"
+      }
+    ]
+  }
