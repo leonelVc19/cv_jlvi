@@ -1,6 +1,68 @@
 ---
-import Section from "@/components/Section.astro"
+import Section from "@/components/Section.astro";
+import { work } from "@cv";
 ---
 <Section title="Experiencia">
+  <ul>
+    {
+      work.map(
+        ({ name, startDate, endDate, url, position, summary, highlights }) => {
+          const years = `${startDate} | ${
+            endDate === null ? "Actual" : endDate
+          }`;
+          return (
+            <li>
+              <article>
+                <header>
+                  <div>
+                    <h2>{name}</h2>
+                    <h4>{position}</h4>
+                  </div>
+                  <time>{years}</time>
+                </header>
 
+                <footer>
+                  <p>{summary}</p>
+                </footer>
+              </article>
+            </li>
+          );
+        }
+      )
+    }
+  </ul>
 </Section>
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+  }
+  li {
+    transition: all 0.2s ease-in-out;
+    padding: 3px;
+  }
+  li:hover {
+    transform: scale(1.01);
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.2);
+    border-radius: 8px;
+  }
+  article h2 {
+    font-weight: 600;
+    color: #111;
+  }
+  article h4 {
+    color: #222;
+    font-weight: 500;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+  }
+  time {
+    font-size: 0.85rem;
+    color: #666;
+  }
+</style>

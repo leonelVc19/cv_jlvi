@@ -2,15 +2,15 @@
     "basics": {
       "name": "Juan Leonel Vazquez Iglesias",
       "label": "Ing. en desarrollo y gestion de software y desarrollador Full Stack Jr",
-      "image": "https://i.pinimg.com/236x/94/be/b1/94beb1107bb3addf2f85f671cafb9190.jpg",
+      "image": "/my_image.jpg",
       "email": "vazquez.juan.1fm@gmail.com",
-      "phone": "+52 2431219100",
+      "phone": "+52 2431219195",
       "url": "https://jlvi19c.vercel.app/",
       "summary": "Contando con un a;os de experiencia en el desarrollo de web y apacionado por la tecnologia. Actualmente trabajo para un empresa colsultora que cuenta clientes en barios ambitos. Soy de mexico para el desarrollo Full Stack",
       "location": {
         "address": "",
         "postalCode": "74400",
-        "city": "Izucar de Matamoros, Puebla",
+        "city": "Puebla",
         "countryCode": "MXN",
         "region": "Mexico"
       },
@@ -18,7 +18,7 @@
         {
             "network": "LinkedIn",
             "username": "Juan Leonel Vazquez Iglesias",
-            "url": "https://www.linkedin.com/in/juan-leonel-vazquez-iglesias-74b553230/"
+            "url": "https://www.linkedin.com/in/juan-leonel-vazquez-iglesias/"
         },
         {
             "network": "X",
@@ -37,8 +37,8 @@
         "name": "Sit Digital",
         "position": "Desarrollador Practicas profesinales",
         "url": "_",
-        "startDate": "2023-01-20",
-        "endDate": "2023-04-14",
+        "startDate": "2023-01",
+        "endDate": "2023-04",
         "summary": "Desarrollando un proyecto para la pasantia",
         "highlights": [
           "Proyecto pasantia"
@@ -48,8 +48,8 @@
         "name": "E-stars",
         "position": "Desarrollador",
         "url": "_",
-        "startDate": "2023-05-01",
-        "endDate": "2023-09-14",
+        "startDate": "2023-05",
+        "endDate": "2023-09",
         "summary": "Proyecto de constelaciones para NFT's",
         "highlights": [
           "NFT's"
@@ -58,7 +58,7 @@
       {
         "name": "Anzen Solutions",
         "position": "Desarrollador",
-        "startDate": "2023-06-05",
+        "startDate": "2023-06",
         "endDate": null,
         "summary": "Trabajando en la parte de desarrollo para el sector bancario de un banco importante en CDMX",
         "highlights": [
@@ -159,6 +159,20 @@
         ]
       },
       {
+        "name": "Postgres",
+        "level": "Intermedio",
+        "keywords": [
+          "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+        ]
+      },
+      {
+        "name": "Postman",
+        "level": "Intermedio",
+        "keywords": [
+          "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+        ]
+      },
+      {
         "name": "Git",
         "level": "Intermedio",
         "keywords": [
@@ -173,7 +187,7 @@
         ]
       },
       {
-        "name": "Next.js",
+        "name": "NextJS",
         "level": "Intermedio",
         "keywords": [
           "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
@@ -181,6 +195,83 @@
       },
       {
         "name": "React",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        ]
+      },
+      {
+        "name": "Astro",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        ]
+      },
+      {
+        "name": "React Native",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        ]
+      },
+      {
+        "name": "Expo Go",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        ]
+      },
+      {
+        "name": "Firebase",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        ]
+      },
+      {
+        "name": "LitElement",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        ]
+      },
+      {
+        "name": "Sass",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        ]
+      },
+      {
+        "name": "S3 AWS",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        ]
+      },
+      {
+        "name": "Angular",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        ]
+      },
+      {
+        "name": "Sass",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        ]
+      },
+      {
+        "name": "Jira",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        ]
+      },
+      {
+        "name": "Confluence",
         "level": "Intermedio",
         "keywords": [
           "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
@@ -210,13 +301,44 @@
     }],
     "projects": [
       {
+        "name": "Candy App",
+        "description": "App movil para la administracion de mercancia en una dulceria",
+        "highlights": [
+          "Candy",
+          "Administra",
+          "React Native"
+        ],
+        "url": "_"
+      },
+      {
+        "name": "Gestion de Perfiles RH",
+        "description": "Proyecto para la gestion de perfiles de cadidatos a programacion",
+        "highlights": [
+          "Perfiles",
+          "RH",
+          "Lit Element"
+        ],
+        "url": "_"
+      },
+      {
+        "name": "E-Stars",
+        "isActive": true,
+        "description": "Proyecto de NFT's de constelaciones tipo Windows 98",
+        "highlights": [
+          "Wallet",
+          "Constellations",
+          "NextJS"
+        ],
+        "url": "https://test-e-stars.vercel.app/"
+      },
+      {
         "name": "JLVI",
         "isActive": true,
         "description": "Mi Web personal donde cuento con la informacion de mis proyectos",
         "highlights": [
           "Mi Web",
-          "NextJS",
-          "JavaScript"
+          "Proyectos",
+          "NextJS"
         ],
         "url": "https://jlvi19c.vercel.app/"
       },
@@ -225,8 +347,9 @@
         "isActive": true,
         "description": "App para bsuqueda de Gift chulos",
         "highlights": [
-          "Busca tu Gifts",
-          "Elije"
+          "Busca tus Gifts",
+          "Gift",
+          "Angular"
         ],
         "url": "https://leonelvc19.github.io/gifs-app/"
       },
@@ -236,7 +359,8 @@
         "description": "App Web para saber informacion de un pais, capital o region",
         "highlights": [
           "World",
-          "Tu pais"
+          "Tu pais",
+          "Angular"
         ],
         "url": "https://countries-app-jlvi.vercel.app/countries/by-capital"
       },
@@ -245,28 +369,11 @@
         "isActive": true,
         "description": "Este proyecto es utilizado para tener mi CV a la mano",
         "highlights": [
-          "100k visitas al mes",
-          "Desarrollado por la comunidad"
+          "CV",
+          "JLVI",
+          "Astro"
         ],
         "url": "https://cv_jlvi.netlify.app/"
-      },
-      {
-        "name": "Candy App",
-        "description": "App movil para la administracion de mercancia en una dulceria",
-        "highlights": [
-          "Candy",
-          "Administra"
-        ],
-        "url": "_"
-      },
-      {
-        "name": "Gestion de Perfiles",
-        "description": "Proyecto para la gestion de perfiles de cadidatos a programacion",
-        "highlights": [
-          "Perfiles",
-          "Lit Element"
-        ],
-        "url": "_"
       }
     ]
   }

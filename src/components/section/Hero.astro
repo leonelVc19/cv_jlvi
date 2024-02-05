@@ -1,10 +1,12 @@
 ---
 import { basics } from "@cv";
 import Section from "@/components/Section.astro";
+
 import Mail from "@/icons/Mail.astro";
 import Phone from "@/icons/Phone.astro";
 import GitHub from "@/icons/GitHub.astro";
 import LinkedIn from "@/icons/LinkedIn.astro";
+import Print from "@/icons/Print.astro";
 import WorldMap from "@/icons/WorldMap.astro";
 import X from "@/icons/X.astro";
 
@@ -15,7 +17,18 @@ const SOCIAL_ICONS: Record<string, any> = {
   LinkedIn,
   X,
 };
+
+const linkedInInfo = profiles.find(({ network }) => network === "LinkedIn");
+const linkedInUrl = linkedInInfo?.url;
+const printInfo = [email, phone, linkedInUrl].filter(Boolean).join(" • ");
 ---
+
+<script>
+  const buttons = document.querySelector("#btn");
+  buttons?.addEventListener("click", () => {
+    window.print();
+  });
+</script>
 
 <Section>
   <div class="container">
@@ -24,9 +37,12 @@ const SOCIAL_ICONS: Record<string, any> = {
       <h2>{label}</h2>
       <span>
         <WorldMap />
-        {city}, {region}
+        {city}, {region}.
       </span>
-      <footer>
+      <footer class="print">
+        {printInfo}
+      </footer>
+      <footer class="no-print">
         {
           email && (
             <a
@@ -34,19 +50,23 @@ const SOCIAL_ICONS: Record<string, any> = {
               title={`Enviar correo a ${name} al correo ${email}`}
               target="_blank"
               rel="noopener noreferrer"
+              class="tooltip"
             >
+              <span class="tooltiptext">Email</span>              
               <Mail />
             </a>
           )
         }
         {
-          email && (
+          phone && (
             <a
-              href={`tel:${email}`}
+              href={`tel:${phone}`}
               title={`Llamar por telefono a ${name} por el numero ${phone}`}
               target="_blank"
               rel="noopener noreferrer"
+              class="tooltip"
             >
+              <span class="tooltiptext">Teléfono</span>  
               <Phone />
             </a>
           )
@@ -54,19 +74,24 @@ const SOCIAL_ICONS: Record<string, any> = {
         {
           profiles.map(({ network, url, username }) => {
             const Icon = SOCIAL_ICONS[network];
-
             return (
               <a
                 href={url}
-                title={`Visita el perfil de ${name}, en ${network}`}
+                title={`Visita el perfil de ${username}, en ${network}`}
                 target="_blank"
                 rel="noopener noreferrer"
+                class="tooltip"
               >
+                <span class="tooltiptext">{network}</span>          
                 <Icon />
               </a>
             );
           })
         }
+      <a id="btn" class="tooltip">
+        <span class="tooltiptext">Imprimir CV</span>              
+        <Print class="icon_print" />
+      </a>
       </footer>
     </div>
     <figure>
@@ -99,11 +124,10 @@ const SOCIAL_ICONS: Record<string, any> = {
     font-size: 1.1rem;
     text-wrap: balance;
   }
-
   img {
-    aspect-ratio: 1/1;
+    aspect-ratio: 1.5/1.9;
     object-fit: cover;
-    width: 120px;
+    width: 130px;
     border-radius: 0.9rem;
     transition: all 0.2s ease-in-out;
   }
@@ -121,6 +145,8 @@ const SOCIAL_ICONS: Record<string, any> = {
   }
 
   footer {
+    font-size: 0.75rem;
+    color: #666;
     display: flex;
     gap: 4px;
     margin-top: 8px;
@@ -139,9 +165,43 @@ const SOCIAL_ICONS: Record<string, any> = {
   }
   footer a:hover {
     transform: scale(1.08);
-    background: #9b9797;
+    background: #bcbdbd;
     border: 1px solid #bbb;
-
     color: #fff;
   }
+  @media print {
+    .no-print {
+      display: none !important;
+    }
+  }
+  .print {
+    display: none !important;
+  }
+
+  @media print {
+    .print {
+      display: block !important;
+    }
+  }
+  /* TOOLTIP */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  cursor: pointer;
+}
+.tooltip .tooltiptext {
+  top: 2.3rem;
+  visibility: hidden;
+  background-color: #eee;
+  color: #000;
+  text-align: center;
+  padding: 0.2rem 0.3rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  position: absolute;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+} */
 </style>
