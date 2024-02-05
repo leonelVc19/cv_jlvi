@@ -6,7 +6,7 @@ import { work } from "@cv";
   <ul>
     {
       work.map(
-        ({ name, startDate, endDate, url, position, summary, highlights }) => {
+        ({ name, startDate, endDate, position, summary }) => {
           const years = `${startDate} | ${
             endDate === null ? "Actual" : endDate
           }`;

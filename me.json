@@ -365,7 +365,7 @@
         "url": "https://countries-app-jlvi.vercel.app/countries/by-capital"
       },
       {
-        "name": "My CV",
+        "name": "CV JLVI",
         "isActive": true,
         "description": "Este proyecto es utilizado para tener mi CV a la mano",
         "highlights": [
@@ -373,7 +373,7 @@
           "JLVI",
           "Astro"
         ],
-        "url": "https://cv_jlvi.netlify.app/"
+        "url": "_"
       }
     ]
   }
